@@ -30,7 +30,9 @@ body {
   color: #202020;
   font-family: "Avenir Next", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 100;
-  /*background-image: url('../img/bg.jpg');*/
+  -webkit-background-size: 100% 50%;
+  background-size: 100% 50%;
+  background: url("../img/bg.jpg") no-repeat bottom;
 }
 
 h1 {
@@ -64,9 +66,9 @@ a {
   align-content: flex-start;
   align-items: stretch;
   flex-shrink: 0;
-
-
+  background: linear-gradient(to bottom, rgba(164, 192, 219, 1) , rgba(223, 225, 238,1),transparent);
 }
+
 .site__main{
   width: 70%;
   height: 100%;
@@ -228,7 +230,7 @@ a {
 }
 
 .checkout__image{
-  width: 300px;
+  width: 80%;
   height: 66px;
   background-color:#80A590;
   flex-direction: row;

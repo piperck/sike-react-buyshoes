@@ -13,11 +13,13 @@
     <!-- Disable zooming on mobile. Useful for responsive design. -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- magic scroll-->
     <link rel="stylesheet" type="text/css" href="node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.css">
     <script type="text/javascript" src="node_modules/perfect-scrollbar/dist/js/perfect-scrollbar.js"></script>
 
     <script type="text/javascript" src="js/app.js"></script>
-
+    <script type="text/javascript" src="node_modules/react/dist/react.js"></script>
+    <script type="text/javascript" src="build/app.js"></script>
     <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
 
     <link rel="stylesheet" type="text/css" href="css/app.css">
@@ -26,6 +28,9 @@
 <div class="site">
     <!-- 70% main section-->
     <div class="site__main">
+        <div id="root">
+
+        </div>
         <div class="site__left-sidebar">
             <h2>Buy<br> Me<br> Shoes</h2>
             <img class="heart" src="img/red-heart.svg">
