@@ -619,7 +619,7 @@ a {
   /*background: rgba(0,255,0,0.3);*/
 }
 .cart__content{
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .cart__title{
   position: fixed;
@@ -776,7 +776,7 @@ a {
           flex:1 0;
 }
 .checkout__price--strikeout-right{
-  text-decoration: line-through;
+  /*text-decoration: line-through;*/
 }
 .checkout__price--saving{
   -webkit-box-orient: horizontal;
